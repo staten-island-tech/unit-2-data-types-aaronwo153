@@ -18,8 +18,14 @@
 # o = input('That husky had ___ legs! Write a number. ')
 # print(f"Today I {x} into house. After that, I saw {y} eating lunch. They were eating {u} hamburger(s)! Later when I went outside, I saw a {q} roll into a sinkhole! I decided to {t} in and eat it! Down in the hole, I saw a {i} husky. That husky had {o} legs!")
 
-remainder = 0
-if remainder < 0:
-    print('odd')
-elif remainder == 0:
-    print('even')
+# x = int(input('write a number '))
+# if x % 2 > 0:
+#     print('odd')
+# else:
+#     print('even')
+
+service = input("How was the service? ")
+if service == ('Good'):
+    print('20% tip')
+elif service not('Good, Bad, Okay, Great')
+    print('Try again')
