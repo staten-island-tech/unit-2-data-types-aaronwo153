@@ -24,8 +24,19 @@
 # else:
 #     print('even')
 
-service = input("How was the service? ")
-if service == ('Good'):
-    print('20% tip')
-elif service not('Good, Bad, Okay, Great')
-    print('Try again')
+# service = input("How was the service? ")
+# if service == ('Good'):
+#     print('20% tip')
+# if service == ('Bad'):
+#     print('0% tip')
+# if service == ('Great'):
+#     print('25% tip')
+# if service == ('Okay'):
+#     print('15% tip')
+# else:
+#     print("try again")
+
+x = input('Write a number ')
+for i in range(1, {x}):
+    if {x} % i ==0:  
+        print(i)
