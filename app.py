@@ -36,7 +36,12 @@
 # else:
 #     print("try again")
 
-x = input('Write a number ')
-for i in range(1, {x}):
-    if {x} % i ==0:  
-        print(i)
+# x = int(input('Write a number '))
+# for i in range(1,x+1):
+#     if x%i==0:
+#         print(i)
+
+num1 = int(input('type in number 1 '))
+num2 = int(input('type in number 2 '))
+x = num1 % num1+1 == num2 % num2+1
+print(%)
