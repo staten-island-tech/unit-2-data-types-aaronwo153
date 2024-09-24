@@ -2,7 +2,7 @@
 # y= x.split( )
 # print(len(y))
 
-# Mad Libs Project
+# # Mad Libs Project
 # x = input('Today I _____ into my house. Write a verb. ')
 # print(f"Today I {x} into my house.")
 # y = input('After that I saw  ______ eating lunch. Write a celebrity name. ')
@@ -43,5 +43,11 @@
 
 num1 = int(input('type in number 1 '))
 num2 = int(input('type in number 2 '))
-x = num1 % num1+1 == num2 % num2+1
-print(%)
+for i in range(1,1+num1):
+    if num1%i==0:
+        print(i)
+for r in range(1,1+num2):
+    if num2%r==0:
+        print(r)
+    if r==i:
+        print('gcf')
