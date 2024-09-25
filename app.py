@@ -36,18 +36,18 @@
 # else:
 #     print("try again")
 
-# x = int(input('Write a number '))
-# for i in range(1,x+1):
-#     if x%i==0:
-#         print(i)
+x = int(input('Write a number '))
+y = int(input('Write a number '))
+for i in range(1,x+1):
+    if y%i==0 and x%i==0: 
+        print (int(x , y))
 
-num1 = int(input('type in number 1 '))
-num2 = int(input('type in number 2 '))
-for i in range(1,1+num1):
-    if num1%i==0:
-        print(i)
-for r in range(1,1+num2):
-    if num2%r==0:
-        print(r)
-    if r==i:
-        print('gcf')
+# t = int(input('number 1 is '))
+# y = int(input('number 2 is '))
+# def gcf (t, y):
+#     if t > y:
+#         t, y = y, t
+#     for x in range (t, 0 ,1):
+#         if t % x ==0 and y % x ==0:
+#             return x
+# print (str(gcf(t , y)))
