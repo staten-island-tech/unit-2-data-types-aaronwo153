@@ -38,16 +38,8 @@
 
 x = int(input('Write a number '))
 y = int(input('Write a number '))
-for i in range(1,x+1):
+for i in range(1,x+1):   
     if y%i==0 and x%i==0: 
-        print (int(x , y))
-
-# t = int(input('number 1 is '))
-# y = int(input('number 2 is '))
-# def gcf (t, y):
-#     if t > y:
-#         t, y = y, t
-#     for x in range (t, 0 ,1):
-#         if t % x ==0 and y % x ==0:
-#             return x
-# print (str(gcf(t , y)))
+        print(i)
+            
+        
