@@ -38,8 +38,8 @@
 
 x = int(input('Write a number '))
 y = int(input('Write a number '))
+l = 1
 for i in range(1,x+1):   
     if y%i==0 and x%i==0: 
-        print(i)
-            
-        
+        l = i
+print(l)
