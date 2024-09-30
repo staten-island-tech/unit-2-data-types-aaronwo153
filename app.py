@@ -36,10 +36,11 @@
 # else:
 #     print("try again")
 
-x = int(input('Write a number '))
-y = int(input('Write a number '))
-l = 1
-for i in range(1,x+1):   
-    if y%i==0 and x%i==0: 
-        l = i
+for o in range(70):
+    x = int(input('Write a number '))
+    y = int(input('Write a number '))
+    l = 1
+    for i in range(1,x+1):   
+        if y%i==0 and x%i==0: 
+            l = i
 print(l)
